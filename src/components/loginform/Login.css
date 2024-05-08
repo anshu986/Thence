@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 52px;
+    padding-block: 31.88px;
+}
+.icon{
+    font-size: 45px;
+    border: solid 1px #CACACA;
+    border-radius: 50%;
+    padding-inline: 10px;
+    /* margin:s 10px; */
+
+}
+.credentials{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 90px;
+    margin-top: 50px;
+}
+.loginpopup{
+    width: 588px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+.loginpopup p:first-child{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #2DA950;
+    font-family: "Covered By Your Grace";
+}
+.loginpopup p:nth-child(2){
+    font-family: Manrope;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    
+
+}
+.credentials input{
+    /* width: Fixed (417px)px;
+    height: Hug (75px)px; */
+   
+    padding: 24px 36px 24px 36px;
+    gap: 10px;
+    border-radius: 64px ;
+    border: 1px;
+    opacity: 0px;
+    background-color: #EFEFEF;
+    margin-bottom: 20px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.32px;
+    text-align: left;
+
+    
+
+
+}
+.email{
+    font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+line-height: 21.86px;
+text-align: left;
+color: #FF0808;
+}
+.submit_btn{
+padding: 26.11px 49.61px 26.11px 41.78px;
+gap: 15.67px;
+border-radius: 107.06px;
+opacity: 0px;
+border: none;
+background-color: #1C1C1C;
+margin-top: 20px;
+color: #FFFFFF;
+font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+line-height: 24.59px;
+text-align: center;
+
+
+}
+.disabled_btn{
+padding: 26.11px 49.61px 26.11px 41.78px;
+gap: 15.67px;
+border-radius: 107.06px;
+opacity: 0px;
+border: none;
+margin-top: 20px;
+cursor: not-allowed;
+background-color: #C9C9C9;
+color: #FFFFFF;
+font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+line-height: 24.59px;
+text-align: center;
+
+
+}

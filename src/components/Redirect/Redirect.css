@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 52px;
+    padding-block: 31.88px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.submit_icon{
+    color: #28B246;
+    font-size: 69px;
+    margin-bottom: 45px;
+    text-align: center;
+    /* margin-inline: auto; */
+
+}
+.success_msg{
+    font-family: Covered By Your Grace;
+    color: #28B246;
+
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 15px;
+
+    
+}
+.congratulations{
+    font-family: Manrope;
+    color: #1C1C1C;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    
+}
+.msg_popup{
+    font-family: Manrope;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 35.1px;
+    text-align: center;
+    margin-block: 20px;
+    color: #727272;
+    ;
+    
+}
+.main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 116px;
+}
+.redirect_msg{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 150px;
+    color: #727272;
+
+    
+}
+.redirect_msg span{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+   color: #1C1C1C;
+
+}
